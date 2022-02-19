@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("front1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.title {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    width: 100%;
+
+}
+
+.subject>h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: #23a0e9;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.clock {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #23a0e9;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.select {
+    position: absolute;
+    top: 54%;
+    left: 8%;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 100px;
+    background-color: #183a9e;
+    color: #23a0e9;
+    border: 2px solid #23a0e9;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#present>a {
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 18%;
+    right: 22%;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    background-color: #183a9e;
+    color: white;
+}
