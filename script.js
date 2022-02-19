@@ -42,7 +42,11 @@ function getRandomNumber(min,max){
 }
 btnRandom.addEventListener('click', () => {
     let index = getRandomNumber(0,student.length-1);
-    result.innerText =  student[index];    
+    result.innerText =  student[index]; 
+    let a= document.createElement('a');
+    a.target= '_blank';
+    a.href= student[index];
+    a.click();
 });
 
 
